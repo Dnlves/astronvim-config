@@ -22,4 +22,5 @@ return {
         vim.g.sonokai_style = "andromeda"
       end,
     },
+    { "dracula/vim" },
 }
