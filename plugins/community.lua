@@ -8,8 +8,20 @@ return {
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 
   -- My Configs
+
+  -- Angular + Java 
   -- { import = "astrocommunity.pack.angular" },
   -- { import = "astrocommunity.pack.java" },
+
+  -- React, Next
+  -- { import = "astrocommunity.pack.html-css" },
+  -- { import = "astrocommunity.pack.typescript" },
+  -- { import = "astrocommunity.pack.tailwindcss" },
+
+  -- Docker
+  { import = "astrocommunity.pack.docker" },
+
+  -- Rest Client
   { import = "astrocommunity.programming-language-support.rest-nvim",
     opt = {
       -- Open request results in a horizontal split
