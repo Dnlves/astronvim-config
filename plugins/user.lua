@@ -23,4 +23,5 @@ return {
       end,
     },
     { "dracula/vim" },
+    { "mg979/vim-visual-multi", lazy = false }
 }
