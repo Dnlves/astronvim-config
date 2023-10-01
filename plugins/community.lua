@@ -18,6 +18,9 @@ return {
   -- { import = "astrocommunity.pack.typescript" },
   -- { import = "astrocommunity.pack.tailwindcss" },
 
+  -- Python
+  -- { import = "astrocommunity.pack.python" },
+
   -- Docker
   { import = "astrocommunity.pack.docker" },
 
