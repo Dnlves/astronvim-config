@@ -8,15 +8,17 @@ return {
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 
   -- My Configs
+  { import = "astrocommunity.lsp.lsp-signature-nvim" },
+  { import = "astrocommunity.indent.indent-blankline-nvim" },
 
   -- Angular + Java 
   -- { import = "astrocommunity.pack.angular" },
   -- { import = "astrocommunity.pack.java" },
 
   -- React, Next
-  -- { import = "astrocommunity.pack.html-css" },
-  -- { import = "astrocommunity.pack.typescript" },
-  -- { import = "astrocommunity.pack.tailwindcss" },
+  { import = "astrocommunity.pack.html-css" },
+  { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.tailwindcss" },
 
   -- Python
   -- { import = "astrocommunity.pack.python" },
